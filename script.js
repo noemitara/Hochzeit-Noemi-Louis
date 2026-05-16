@@ -61,12 +61,6 @@ const images = [
     "images_1/DSC_9878.jpeg",
     "images_1/DSC_9886.jpeg",
     "images_1/DSC_9972.jpeg",
-    "images_2/DSC_0679-2.jpeg",
-    "images_2/DSC_0688-2.jpeg",
-    "images_2/DSC_0704.jpeg",
-    "images_2/DSC_0709.jpeg",
-    "images_2/DSC_0722-2.jpeg",
-    "images_2/DSC_0766-4.jpeg",
     "images_1/DSC_9874.jpeg",
     "images_1/DSC_9767.jpeg",
     "images_1/DSC_9773.jpeg",
@@ -113,6 +107,12 @@ const images = [
     "images_2/DSC_0590.jpeg",
     "images_2/DSC_0615.jpeg",
     "images_2/DSC_0611.jpeg",
+    "images_2/DSC_0679-2.jpeg",
+    "images_2/DSC_0688-2.jpeg",
+    "images_2/DSC_0704.jpeg",
+    "images_2/DSC_0709.jpeg",
+    "images_2/DSC_0722-2.jpeg",
+    "images_2/DSC_0766-4.jpeg",
     "images_2/DSC_0198.jpeg",
     "images_2/DSC_0209.jpeg",
     "images_2/DSC_0226.jpeg",
@@ -227,7 +227,7 @@ function downloadImage() {
     const link = document.createElement("a");
     link.href = images[currentIndex];
     
-    link.download = "hochzeit.jpg";
+    link.download = "hochzeit-noemi-louis.jpg";
     
     document.body.appendChild(link);
     link.click();
